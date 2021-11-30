@@ -1,0 +1,20 @@
+.filter-block {
+  margin-bottom: var(--space-big);
+}
+
+.filter-button {
+  padding: 5px 10px;
+  background: none;
+  color: var(--color-white);
+  text-transform: uppercase;
+  border: 1px solid var(--color-white);
+  cursor: pointer;
+}
+
+.filter-options {
+  padding: var(--space-small);
+}
+
+.filter-options .custom-checkbox {
+  margin-right: var(--space-small);
+}

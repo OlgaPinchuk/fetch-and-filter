@@ -1,0 +1,21 @@
+.main-header {
+  height: 80px;
+  padding: 0 3vw;
+  border-bottom: 1px solid var(--color-dark-grey);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header h1 {
+  font-size: var(--font-size-big);
+}
+
+.icon-star-wars {
+  width: 75px;
+  height: 75px;
+  background: url("../../assets/images/icons8-star-wars-250.png") 50% 50%
+    no-repeat;
+  background-size: 100%;
+}

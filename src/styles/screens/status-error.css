@@ -1,0 +1,7 @@
+.error-screen .icon-error-cloud {
+  display: inline-block;
+  width: 70px;
+  height: 60px;
+  background: url("../../assets/images/icons8-error-cloud-100.png") no-repeat;
+  background-size: contain;
+}

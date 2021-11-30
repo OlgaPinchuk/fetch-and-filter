@@ -1,0 +1,20 @@
+:root {
+  /* Colors */
+  --color-grey: #656d78;
+  --color-white: #ffffff;
+  --color-dark-grey: #333333;
+  --color-dark: #151515;
+
+  /* Space */
+  --space-small: 8px;
+  --space-medium: 16px;
+  --space-big: 28px;
+
+  /* Dimensions */
+  --max-width: 980px;
+
+  /* Font sizes */
+  --font-size-small: 14px;
+  --font-medium: 20px;
+  --font-size-big: 24px;
+}

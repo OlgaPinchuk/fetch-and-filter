@@ -1,0 +1,16 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap");
+
+/* Base */
+@import url("./base/variables.css");
+@import url("./base/layout.css");
+
+/* Components */
+@import url("./components/header.css");
+@import url("./components/checkbox.css");
+@import url("./components/filter.css");
+@import url("./components/star-hero.css");
+
+/* Screens */
+@import url("./screens/status-loading.css");
+@import url("./screens/status-error.css");
