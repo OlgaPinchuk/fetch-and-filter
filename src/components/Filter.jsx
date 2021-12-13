@@ -14,7 +14,7 @@ export default function Filter({ options, onSelect }) {
   }
 
   // Components
-  const FilterItem =
+  const FilterItems =
     options &&
     options.map((item) => {
       return (
@@ -35,10 +35,14 @@ export default function Filter({ options, onSelect }) {
 
   return (
     <div className="filter-block">
-      <button className="filter-button" onClick={toggleOpen}>
-        Filter by films
+      <button
+        className="filter-button"
+        data-testid="toggle-button"
+        onClick={toggleOpen}
+      >
+        {!isOpen ? "Show" : "Hide"} filter options
       </button>
-      {isOpen && <ul className="filter-options grid-cards">{FilterItem}</ul>}
+      {isOpen && <ul className="filter-options grid-cards">{FilterItems}</ul>}
     </div>
   );
 }
