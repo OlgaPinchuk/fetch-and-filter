@@ -1,6 +1,6 @@
 .hero-card {
   padding: var(--space-medium);
-  min-width: 200px;
+  /* min-width: 200px; */
   height: auto;
   line-height: 1.5;
   background: transparent;

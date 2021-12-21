@@ -7,8 +7,8 @@ import useFetch from "hooks/useFetch";
 
 export default function App() {
   // Constants
-  const HEROES_URL = "https://swapi.dev/api/people/";
-  const FILMS_URL = "https://swapi.dev/api/films";
+  const HEROES_URL = " https://swapi.py4e.com/api/people/";
+  const FILMS_URL = " https://swapi.py4e.com/api/films";
 
   // Fetching data
   const { data: heroes, status: heroStatus } = useFetch(HEROES_URL, "swHeroes");
